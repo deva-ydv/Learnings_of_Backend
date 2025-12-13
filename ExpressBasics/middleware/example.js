@@ -16,8 +16,8 @@ function ageCriteria(req,res,next){
     }
     count++;
     console.log(count);
-}
-
+} 
+ 
 app.get('/',ageCriteria,(req,res)=>{
     res.send("live");
     
